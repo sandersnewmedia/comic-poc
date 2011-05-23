@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D906A246138ADB1A00F788DA /* layer-a.png in Resources */ = {isa = PBXBuildFile; fileRef = D906A243138ADB1A00F788DA /* layer-a.png */; };
+		D906A247138ADB1A00F788DA /* layer-b.png in Resources */ = {isa = PBXBuildFile; fileRef = D906A244138ADB1A00F788DA /* layer-b.png */; };
+		D906A24A138AFC4B00F788DA /* layer-c.png in Resources */ = {isa = PBXBuildFile; fileRef = D906A249138AFC4B00F788DA /* layer-c.png */; };
 		D954594C138AB6E100F302A5 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D954594B138AB6E100F302A5 /* UIKit.framework */; };
 		D954594E138AB6E100F302A5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D954594D138AB6E100F302A5 /* Foundation.framework */; };
 		D9545950138AB6E100F302A5 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D954594F138AB6E100F302A5 /* CoreGraphics.framework */; };
@@ -19,6 +22,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		D906A243138ADB1A00F788DA /* layer-a.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "layer-a.png"; sourceTree = "<group>"; };
+		D906A244138ADB1A00F788DA /* layer-b.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "layer-b.png"; sourceTree = "<group>"; };
+		D906A249138AFC4B00F788DA /* layer-c.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "layer-c.png"; sourceTree = "<group>"; };
 		D9545947138AB6E100F302A5 /* comic-poc.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "comic-poc.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D954594B138AB6E100F302A5 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		D954594D138AB6E100F302A5 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -52,6 +58,7 @@
 		D954593C138AB6E000F302A5 = {
 			isa = PBXGroup;
 			children = (
+				D954596E138ACAF500F302A5 /* images */,
 				D9545951138AB6E100F302A5 /* comic-poc */,
 				D954594A138AB6E100F302A5 /* Frameworks */,
 				D9545948138AB6E100F302A5 /* Products */,
@@ -99,6 +106,16 @@
 				D9545958138AB6E100F302A5 /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D954596E138ACAF500F302A5 /* images */ = {
+			isa = PBXGroup;
+			children = (
+				D906A249138AFC4B00F788DA /* layer-c.png */,
+				D906A243138ADB1A00F788DA /* layer-a.png */,
+				D906A244138ADB1A00F788DA /* layer-b.png */,
+			);
+			name = images;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -151,6 +168,9 @@
 				D9545956138AB6E100F302A5 /* InfoPlist.strings in Resources */,
 				D954595F138AB6E100F302A5 /* MainWindow.xib in Resources */,
 				D9545965138AB6E100F302A5 /* comic_pocViewController.xib in Resources */,
+				D906A246138ADB1A00F788DA /* layer-a.png in Resources */,
+				D906A247138ADB1A00F788DA /* layer-b.png in Resources */,
+				D906A24A138AFC4B00F788DA /* layer-c.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -278,6 +298,7 @@
 				D954596A138AB6E100F302A5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

@@ -8,8 +8,11 @@
 
 #import <UIKit/UIKit.h>
 
-@interface comic_pocViewController : UIViewController {
-    
-}
+@interface comic_pocViewController : UIViewController<UIScrollViewDelegate>
+
+@property (nonatomic, retain) IBOutlet UIScrollView *scrollView;
+@property (nonatomic, retain) UIImageView *imageViewA;
+@property (nonatomic, retain) UIImageView *imageViewB;
+@property (nonatomic, retain) UIImageView *imageViewC;
 
 @end
