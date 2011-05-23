@@ -1,0 +1,285 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D954594C138AB6E100F302A5 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D954594B138AB6E100F302A5 /* UIKit.framework */; };
+		D954594E138AB6E100F302A5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D954594D138AB6E100F302A5 /* Foundation.framework */; };
+		D9545950138AB6E100F302A5 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D954594F138AB6E100F302A5 /* CoreGraphics.framework */; };
+		D9545956138AB6E100F302A5 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D9545954138AB6E100F302A5 /* InfoPlist.strings */; };
+		D9545959138AB6E100F302A5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D9545958138AB6E100F302A5 /* main.m */; };
+		D954595C138AB6E100F302A5 /* comic_pocAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D954595B138AB6E100F302A5 /* comic_pocAppDelegate.m */; };
+		D954595F138AB6E100F302A5 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = D954595D138AB6E100F302A5 /* MainWindow.xib */; };
+		D9545962138AB6E100F302A5 /* comic_pocViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D9545961138AB6E100F302A5 /* comic_pocViewController.m */; };
+		D9545965138AB6E100F302A5 /* comic_pocViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D9545963138AB6E100F302A5 /* comic_pocViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		D9545947138AB6E100F302A5 /* comic-poc.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "comic-poc.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D954594B138AB6E100F302A5 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		D954594D138AB6E100F302A5 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		D954594F138AB6E100F302A5 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		D9545953138AB6E100F302A5 /* comic-poc-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "comic-poc-Info.plist"; sourceTree = "<group>"; };
+		D9545955138AB6E100F302A5 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		D9545957138AB6E100F302A5 /* comic-poc-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "comic-poc-Prefix.pch"; sourceTree = "<group>"; };
+		D9545958138AB6E100F302A5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D954595A138AB6E100F302A5 /* comic_pocAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = comic_pocAppDelegate.h; sourceTree = "<group>"; };
+		D954595B138AB6E100F302A5 /* comic_pocAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = comic_pocAppDelegate.m; sourceTree = "<group>"; };
+		D954595E138AB6E100F302A5 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+		D9545960138AB6E100F302A5 /* comic_pocViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = comic_pocViewController.h; sourceTree = "<group>"; };
+		D9545961138AB6E100F302A5 /* comic_pocViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = comic_pocViewController.m; sourceTree = "<group>"; };
+		D9545964138AB6E100F302A5 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/comic_pocViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D9545944138AB6E000F302A5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D954594C138AB6E100F302A5 /* UIKit.framework in Frameworks */,
+				D954594E138AB6E100F302A5 /* Foundation.framework in Frameworks */,
+				D9545950138AB6E100F302A5 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D954593C138AB6E000F302A5 = {
+			isa = PBXGroup;
+			children = (
+				D9545951138AB6E100F302A5 /* comic-poc */,
+				D954594A138AB6E100F302A5 /* Frameworks */,
+				D9545948138AB6E100F302A5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D9545948138AB6E100F302A5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D9545947138AB6E100F302A5 /* comic-poc.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D954594A138AB6E100F302A5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D954594B138AB6E100F302A5 /* UIKit.framework */,
+				D954594D138AB6E100F302A5 /* Foundation.framework */,
+				D954594F138AB6E100F302A5 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D9545951138AB6E100F302A5 /* comic-poc */ = {
+			isa = PBXGroup;
+			children = (
+				D954595A138AB6E100F302A5 /* comic_pocAppDelegate.h */,
+				D954595B138AB6E100F302A5 /* comic_pocAppDelegate.m */,
+				D954595D138AB6E100F302A5 /* MainWindow.xib */,
+				D9545960138AB6E100F302A5 /* comic_pocViewController.h */,
+				D9545961138AB6E100F302A5 /* comic_pocViewController.m */,
+				D9545963138AB6E100F302A5 /* comic_pocViewController.xib */,
+				D9545952138AB6E100F302A5 /* Supporting Files */,
+			);
+			path = "comic-poc";
+			sourceTree = "<group>";
+		};
+		D9545952138AB6E100F302A5 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D9545953138AB6E100F302A5 /* comic-poc-Info.plist */,
+				D9545954138AB6E100F302A5 /* InfoPlist.strings */,
+				D9545957138AB6E100F302A5 /* comic-poc-Prefix.pch */,
+				D9545958138AB6E100F302A5 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D9545946138AB6E000F302A5 /* comic-poc */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D9545968138AB6E100F302A5 /* Build configuration list for PBXNativeTarget "comic-poc" */;
+			buildPhases = (
+				D9545943138AB6E000F302A5 /* Sources */,
+				D9545944138AB6E000F302A5 /* Frameworks */,
+				D9545945138AB6E000F302A5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "comic-poc";
+			productName = "comic-poc";
+			productReference = D9545947138AB6E100F302A5 /* comic-poc.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D954593E138AB6E000F302A5 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = D9545941138AB6E000F302A5 /* Build configuration list for PBXProject "comic-poc" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = D954593C138AB6E000F302A5;
+			productRefGroup = D9545948138AB6E100F302A5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D9545946138AB6E000F302A5 /* comic-poc */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D9545945138AB6E000F302A5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D9545956138AB6E100F302A5 /* InfoPlist.strings in Resources */,
+				D954595F138AB6E100F302A5 /* MainWindow.xib in Resources */,
+				D9545965138AB6E100F302A5 /* comic_pocViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D9545943138AB6E000F302A5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D9545959138AB6E100F302A5 /* main.m in Sources */,
+				D954595C138AB6E100F302A5 /* comic_pocAppDelegate.m in Sources */,
+				D9545962138AB6E100F302A5 /* comic_pocViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		D9545954138AB6E100F302A5 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D9545955138AB6E100F302A5 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		D954595D138AB6E100F302A5 /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D954595E138AB6E100F302A5 /* en */,
+			);
+			name = MainWindow.xib;
+			sourceTree = "<group>";
+		};
+		D9545963138AB6E100F302A5 /* comic_pocViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D9545964138AB6E100F302A5 /* en */,
+			);
+			name = comic_pocViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D9545966138AB6E100F302A5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_UNIVERSAL_IPHONE_OS)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		D9545967138AB6E100F302A5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_UNIVERSAL_IPHONE_OS)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Release;
+		};
+		D9545969138AB6E100F302A5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "comic-poc/comic-poc-Prefix.pch";
+				INFOPLIST_FILE = "comic-poc/comic-poc-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		D954596A138AB6E100F302A5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "comic-poc/comic-poc-Prefix.pch";
+				INFOPLIST_FILE = "comic-poc/comic-poc-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALIDATE_PRODUCT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D9545941138AB6E000F302A5 /* Build configuration list for PBXProject "comic-poc" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D9545966138AB6E100F302A5 /* Debug */,
+				D9545967138AB6E100F302A5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D9545968138AB6E100F302A5 /* Build configuration list for PBXNativeTarget "comic-poc" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D9545969138AB6E100F302A5 /* Debug */,
+				D954596A138AB6E100F302A5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D954593E138AB6E000F302A5 /* Project object */;
+}
